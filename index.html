@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- HEADER / NAVBAR -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Raghuram Nalabothula</a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link"><i class="bx bx-home"></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link"><i class="bx bx-user"></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link"><i class="bx bx-book"></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link"><i class="bx bx-briefcase-alt-2"></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link"><i class="bx bx-message"></i></a>
+          </li>
+        </ul>
+      </div>
+      <i class="bx bx-moon change-theme change-theme-button" id="theme-button"></i>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home section sr" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Hello, I'm</span>
+          <h1 class="home__name">Raghuram Nalabothula</h1>
+          <h3 class="home__education">Aspiring Software Developer</h3>
+          <div class="home__button">
+            <a download href="https://drive.google.com/file/d/1W6t--Gu23bb9FDs8Takz826F1pzD2paD/view?usp=share_link" class="button button--ghost" target="_blank">Download CV</a>
+            <a href="#about" class="button">About</a>
+          </div>
+        </div>
+        <div class="home__handle">
+          <img src="raghu.png" alt="Raghuram Nalabothula Profile" class="home__img" />
+        </div>
+        <div class="home__social">
+          <a href="https://linkedin.com/in/raghu-nalabothu-b7b2b92b5/" target="_blank" class="home__social-link">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/nalabothuraghu" target="_blank" class="home__social-link">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://leetcode.com/u/nalabothu_raghu/" target="_blank" class="home__social-link">
+            <i class="bx bx-code"></i>
+          </a>
+        </div>
+        <a href="#about" class="home__scroll">
+          <i class="bx bx-mouse home__scroll-icon"></i>
+          <span class="home__scroll-name">Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about section sr" id="about">
+      <span class="section__subtitle">My Intro</span>
+      <h2 class="section__title">About Me</h2>
+      <div class="about__container container grid">
+        <img src="raghu.png" alt="About Raghu" class="about__img" />
+        <div class="about__data">
+          <div class="about__info">
+            <div class="about__box">
+              <i class="bx bx-support about__icon"></i>
+              <h3 class="about__title">Support</h3>
+              <span class="about__subtitle">Available via Email</span>
+            </div>
+          </div>
+          <p class="about__description">
+            I’m a B.Tech student in Electronics and Communication Engineering with a strong passion for software development<br /><br />
+            Despite coming from an ECE background, I’ve developed a deep interest in full stack development and enjoy building efficient, real-world solutions through code. I’m always eager to learn, solve problems, and grow as a developer.
+          </p>
+          <a href="#contact" class="button about__button-contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section sr" id="skills">
+      <span class="section__subtitle">My Skills</span>
+      <h2 class="section__title">Technology Stack</h2>
+      <div class="skills__container container grid">
+        <!-- Frontend Skills -->
+        <div class="skills__content">
+          <h3 class="skills__title">Frontend Development</h3>
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">Bootstrap</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">Git</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">React</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend Skills -->
+        <div class="skills__content">
+          <h3 class="skills__title">Backend Development</h3>
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">Node.js</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">Python</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">MySQL</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">Firebase</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+                <div>
+                  <h3 class="skills__name">MongoDB</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section sr" id="work">
+      <span class="section__subtitle">My Portfolio</span>
+      <h2 class="section__title">Recent Works</h2>
+      <div class="work__filters">
+        <span class="work__item active-work" data-filter="all">All</span>
+        <span class="work__item" data-filter=".web">Web</span>
+        <span class="work__item" data-filter=".app">App</span>
+        <span class="work__item" data-filter=".ml">ML</span>
+      </div>
+      <div class="work__container container">
+        <div class="work__cards">
+          <article class="work__card mix web app">
+            <h3 class="work__title">Equipment Allocation</h3>
+            <p class="work__description">
+              Created a system to track and manage equipment allocation, allowing users to request, assign, and return items efficiently.
+            </p>
+            <p class="work__tech">
+              <strong>Technologies:</strong> Python, HTML, CSS, JavaScript
+            </p>
+          </article>
+          <article class="work__card mix web">
+            <h3 class="work__title">Student Result Management</h3>
+            <p class="work__description">
+              Developed a web-based app to manage and display student academic results. Admins securely upload and update results; students can access their marks using their student ID.
+            </p>
+            <p class="work__tech">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript, Python (Flask)
+            </p>
+          </article>
+          <article class="work__card mix web app">
+            <h3 class="work__title">Event Management</h3>
+            <p class="work__description">
+              A task-oriented event management system that enables event tracking and task assignment.
+            </p>
+            <p class="work__tech">
+              <strong>Technologies:</strong> Python, HTML, CSS, JavaScript
+            </p>
+          </article>
+          <article class="work__card mix ml web">
+            <h3 class="work__title">Xenotransplant Monitoring System</h3>
+            <p class="work__description">
+              An ML-based monitoring system designed to track patient health indicators post-xenotransplant.
+            </p>
+            <p class="work__tech">
+              <strong>Technologies:</strong> Python, Firebase, HTML, CSS, JavaScript, Machine Learning
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section sr" id="contact">
+      <span class="section__subtitle">Get in touch</span>
+      <h3 class="section__title">Contact Me</h3>
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title contact__title-info">Talk to me</h3>
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">raghunalabothu3@gmail.com</span>
+            </div>
+            <div class="contact__card">
+              <i class="bx bxl-whatsapp contact__card-icon"></i>
+              <h3 class="contact__card-title">WhatsApp</h3>
+              <span class="contact__card-data">+91 9154719332</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact__content">
+          <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+          <!-- CONTACT FORM - UPDATED -->
+          <form action="https://formspree.io/f/manjdkvn" method="POST" class="contact__form" id="contact-form">
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Name</label>
+              <input type="text" name="name" placeholder="Enter name" class="contact__form-input" required />
+            </div>
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Mail</label>
+              <input type="email" name="email" placeholder="Enter email" class="contact__form-input" required />
+            </div>
+            <div class="contact__form-div contact__form-area">
+              <label class="contact__form-tag">Message</label>
+              <textarea name="message" placeholder="Write your Message" class="contact__form-input" required></textarea>
+            </div>
+            <button class="button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Raghuram Nalabothula</h1>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#home"    class="footer__link">Home</a></li>
+        <li class="footer__item"><a href="#about"   class="footer__link">About</a></li>
+        <li class="footer__item"><a href="#skills"  class="footer__link">Skills</a></li>
+        <li class="footer__item"><a href="#work"    class="footer__link">Work</a></li>
+        <li class="footer__item"><a href="#contact" class="footer__link">Contact</a></li>
+      </ul>
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a href="https://www.facebook.com/profile.php?id=100028261277367" target="_blank" class="footer__social-link">
+            <i class="bx bxl-facebook footer__social-icon"></i>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://www.instagram.com/____raghu._/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram footer__social-icon"></i>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://linkedin.com/in/raghu-nalabothu-b7b2b92b5/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-linkedin footer__social-icon"></i>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="https://github.com/nalabothuraghu" target="_blank" class="footer__social-link">
+            <i class="bx bxl-github footer__social-icon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--=============== SCRIPTS ===============-->
+  <!-- Remove old ScrollReveal.js -->
+  <!-- <script src="https://unpkg.com/scrollreveal" defer></script> -->
+  <script src="assets/scroll-reveal.js" defer></script>
+  <script src="assets/main.js" defer></script>
+  <script src="assets/work_filters.js" defer></script>
+</body>
+</html>
